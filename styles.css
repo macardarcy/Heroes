@@ -1,0 +1,82 @@
+/*Header*/
+#primer-header {
+    background-color: #1CD1B0;
+    color: black;
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+}
+
+#segundo-header {
+    background-color: #00669F;
+    color: black;
+    font-family: Roboto, sans-serif;
+    padding: 15px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+/*Main*/
+main{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#cards-general {
+    display: flex;
+    padding: 110px 15px;
+}
+
+.cards {
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 15px;
+    width: 30%;
+}
+
+.cards h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.cards p {
+    font-family: 'Roboto', sans-serif;
+    margin: 8px;
+    text-align: center;
+}
+
+.cards .heart {
+    position: relative;
+    bottom: 180px;
+    left: 10px;
+    float: left;
+}
+
+.img-circle {
+    border-radius: 60px;
+    width: 120px;
+    position: relative;
+    bottom: 60px;
+    left: 60px;
+}
+
+button{
+    background-color: #00669F;
+    color: white;
+    padding: 15px 45px;
+    border: none;
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+}
+
+
+/*Footer*/
+#footer {
+    background-color: #00669F;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
